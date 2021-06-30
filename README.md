@@ -1,16 +1,6 @@
 # ccTensor
 R package for CUR/CX Tensor Decomposition
 
-
-Installation of Dependent Packages
-======
-```r
-library("BiocManager")
-BiocManager::install(
-  c("??????????"),
-  suppressUpdates=TRUE)
-```
-
 Installation
 ======
 ```r
@@ -32,8 +22,7 @@ devtools::install_github("rikenbit/ccTensor")
   - Relative-error CUR Matrix Decompositions, Petros Drineas et.al. SIAM J. Matrix Anal. Appl. 2008
 
 - **CX Tensor Decomposition**
-  - **MultiCX**: Multidimensional CX Decomposition of Tensors, Maria F. K. B. et. al., WCNPS 2019, 2019
-  - **FSTD1/2**: Generalizing the column-row matrix decomposition to multi-way arrays, Cesar F. Caiafa and Andrzej Cichocki, Linear Algebra and its Applications, 2010
+  - Multidimensional CX Decomposition of Tensors, Maria F. K. B. et. al., WCNPS 2019, 2019
 
 
 # License

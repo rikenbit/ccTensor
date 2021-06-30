@@ -1,7 +1,7 @@
 CUR <- function(A,
     c.rank=NULL,
     r.rank=NULL,
-    thr=0.8,
+    thr=0.9,
     c.method=c("best.match", "random", "exact.num.random", "top.scores"),
     u.method=c("invCR", "invW"),
     r.method=c("best.match", "random", "exact.num.random", "top.scores")){

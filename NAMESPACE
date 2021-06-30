@@ -1,6 +1,9 @@
-import(MASS, ginv)
-import(igraph, graph_from_incidence_matrix, max_bipartite_match)
+import(rTensor)
+importFrom(MASS, ginv)
+importFrom(igraph, graph_from_incidence_matrix, max_bipartite_match)
+importFrom(methods, is)
+importFrom(stats, cor, runif)
 
 export(CUR)
 export(CX)
-export(CXTensor)
+export(MultiCX)

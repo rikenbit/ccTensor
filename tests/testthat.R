@@ -7,4 +7,4 @@ options(testthat.use_colours = FALSE)
 
 test_file("testthat/test_CUR.R")
 test_file("testthat/test_CX.R")
-test_file("testthat/test_CXTensor.R")
+test_file("testthat/test_MultiCX.R")

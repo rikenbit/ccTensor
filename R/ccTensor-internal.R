@@ -18,12 +18,6 @@
     }
 }
 
-.flist <- list(
-    "random" = .random,
-    "exact.num.random" = .exact.num.random,
-    "top.scores" = .top.scores
-)
-
 .random <- function(A, c.score, k, n){
     repeat{
         indC = which(k * c.score >= runif(n))
@@ -43,6 +37,12 @@
     indC = order(c.score, decreasing=TRUE)[seq(k)]
     list(C=A[,indC], indC=indC)
 }
+
+.flist <- list(
+    "random" = .random,
+    "exact.num.random" = .exact.num.random,
+    "top.scores" = .top.scores
+)
 
 .bestMatch <- function(A, score, k){
     if(k == 1){

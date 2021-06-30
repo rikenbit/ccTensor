@@ -1,4 +1,4 @@
-CX <- function(A, rank=NULL, thr=0.8,
+CX <- function(A, rank=NULL, thr=0.9,
     c.method=c("best.match", "random", "exact.num.random", "top.scores")){
     # Argument check
     c.method <- match.arg(c.method,

@@ -25,7 +25,7 @@ MultiCX <- function(Y, rank=NULL, modes=1:3, thr=0.9,
     gCs <- lapply(modes, function(x){ginv(C[[x]]$C)})
     U <- ttl(Y, gCs, ms=modes)
     # Reconstruction Error
-    Cs <- lapply(modes, function(x){C[[x]]$C})
+    Cs <- lapply(modes, function(x){as.matrix(C[[x]]$C)})
     RecError <- fnorm(Y - ttl(U, Cs, ms=modes))
     # Output
     list(U=U, C=C, RecError=RecError)

@@ -1,4 +1,7 @@
 .levScores <- function(score, k){
+    if(is.vector(score)){
+        score <- as.matrix(score)
+    }
     if(k == 1){
         score[,1]^2
     }else{

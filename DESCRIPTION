@@ -1,8 +1,8 @@
 Package: ccTensor
 Type: Package
 Title: CUR/CX Tensor Decomposition
-Version: 1.0.1
-Date: 2021-06-26
+Version: 1.0.2
+Date: 2021-08-02
 Authors@R: c(person("Koki", "Tsuyuzaki", role = c("aut", "cre"),
                       email = "k.t.the-answer@hotmail.co.jp"),
                person("Itoshi", "Nikaido", role = "aut"))

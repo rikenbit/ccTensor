@@ -1,3 +1,13 @@
+[![DOI](https://zenodo.org/badge/380413918.svg)](https://zenodo.org/badge/latestdoi/380413918)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ccTensor)](
+https://cran.r-project.org/package=ccTensor)
+[![Downloads](https://cranlogs.r-pkg.org/badges/ccTensor)](https://CRAN.R-project.org/package=ccTensor)
+[![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/ccTensor?color=orange)](https://CRAN.R-project.org/package=ccTensor)
+[![:name status badge](https://rikenbit.r-universe.dev/badges/:name)](https://rikenbit.r-universe.dev)
+[![:registry status badge](https://rikenbit.r-universe.dev/badges/:registry)](https://rikenbit.r-universe.dev)
+[![:total status badge](https://rikenbit.r-universe.dev/badges/:total)](https://rikenbit.r-universe.dev)
+[![ccTensor status badge](https://rikenbit.r-universe.dev/badges/ccTensor)](https://rikenbit.r-universe.dev)
+
 # ccTensor
 R package for CUR/CX Tensor Decomposition
 

@@ -7,6 +7,7 @@ https://cran.r-project.org/package=ccTensor)
 [![:registry status badge](https://rikenbit.r-universe.dev/badges/:registry)](https://rikenbit.r-universe.dev)
 [![:total status badge](https://rikenbit.r-universe.dev/badges/:total)](https://rikenbit.r-universe.dev)
 [![ccTensor status badge](https://rikenbit.r-universe.dev/badges/ccTensor)](https://rikenbit.r-universe.dev)
+![GitHub Actions](https://github.com/rikenbit/ccTensor/actions/workflows/build_test_push.yml/badge.svg)
 
 # ccTensor
 R package for CUR/CX Tensor Decomposition
